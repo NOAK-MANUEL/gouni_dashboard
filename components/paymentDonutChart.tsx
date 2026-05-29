@@ -19,7 +19,7 @@ export default function PaymentDonutChart({ students }:{students:StudentType[]})
   ];
 
   return (
-    <div className="bg-white rounded-2xl  p-5 shadow-sm h-[350px]">
+    <div className="bg-white rounded-2xl  p-5 shadow-sm h-[300px] md:h-[450px]">
       <h2 className="font-semibold mb-4">
         Acceptance Fee Status
       </h2>

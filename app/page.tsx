@@ -12,9 +12,9 @@ export default function DashboardPage() {
   return (
     <div className="">
 
-<main className="pt-16 pb-24 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-white to-sky-50">
+<main className="pt-16 pb-24 px-2 md:px-6 bg-gradient-to-br from-blue-50 via-white to-sky-50">
           <div className="mb-8">
-          <h1 className="text-3xl font-bold">
+          <h1 className="text-3xl font-bold text-blue-700">
             Admissions Dashboard
           </h1>
 
@@ -25,7 +25,7 @@ export default function DashboardPage() {
 
         <MetricsGrid students={students} />
 
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
           <PaymentDonutChart students={students} />
 
           <FacultyLevelChart students={students} />
