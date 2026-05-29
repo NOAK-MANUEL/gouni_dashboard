@@ -27,7 +27,19 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col gap-2">
+        <nav className="flex justify-between p-2">
+            <div className="p-6 flex gap-1 items-center text-blue-600">
+        <h1 className="font-bold text-xl">GOUNI</h1>
+        <p className="text-slate-400 ">
+          Admissions Dashboard
+        </p>
+      </div>
+
+
+        </nav>
+        {children}
+        </body>
     </html>
   );
 }
